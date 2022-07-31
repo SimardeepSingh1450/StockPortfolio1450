@@ -36,3 +36,127 @@
     transform: rotate(360deg);
   }
 }
+
+
+.stockslist{
+  display: flex;
+  border-style: solid;
+  width:300px;
+  border-radius: 10px;
+  margin:5px;
+  background-color: rgb(25, 17, 144);
+  color: white;
+  box-shadow: 4px 4px 3px black;
+}
+
+.listflex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.stockslist2 {
+  display: flex;
+  border-style: solid;
+  width: 600px;
+  border-radius: 20px;
+  margin: 10px;
+  border-color: white;
+  box-shadow: 4px 4px 3px black;
+  background-image: linear-gradient(to top right,rgb(75, 75, 75),rgb(34, 185, 185),rgb(188, 188, 188));
+}
+
+.btn{
+  height:50px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 0px black;
+  font-size: 15px;
+
+}
+
+.btn:hover{
+  cursor: pointer;
+  color:white;
+  background-color: rgb(61, 60, 60);
+  border-color: white;
+}
+
+.allstocks{
+  display: flex;
+  justify-content: center;
+
+}
+.input{
+  height: 30px;
+  width: 400px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 2px 2px 3px black;
+}
+
+.displayer{
+  border-style: solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin-left: 23.5vw;
+  text-align: center;
+  border-color: white;
+  box-shadow: 4px 4px 3px black;
+  background-image: linear-gradient(to top right,black,rgb(124, 124, 124));
+}
+
+.inputer{
+  background-image: linear-gradient(to top right,pink,rgb(155, 32, 155));
+  border-style: solid;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-left: 30vw;
+    text-align: center;
+    border-color: white;
+    box-shadow: 4px 4px 3px black;
+}
+
+.inputer .input{
+  margin-left: 3vw;
+}
+
+.mylist{
+  background-image: linear-gradient(to top right,rgba(0, 0, 254, 0.727),rgb(74, 74, 182),rgb(200, 105, 105),rgba(223, 35, 35, 0.716));
+  border-style: solid;
+    border-radius: 30px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    border-color: white;
+    box-shadow: 4px 4px 3px black;
+}
+
+body{
+  background-color: rgb(95, 95, 161);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+h2{
+  font-family: 'Lato', sans-serif;
+}
+button{
+  font-family: 'Lato', sans-serif;
+}
+
+.arrow{
+  height:20px;
+  border-radius: 100px;
+}
+
+.mydata{
+  text-shadow: 1px 1px 0px black;
+}
